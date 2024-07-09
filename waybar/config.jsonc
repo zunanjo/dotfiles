@@ -1,0 +1,171 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 50,
+    "modules-left": [
+      "hyprland/workspaces",
+      "memory",
+      "disk",
+      "cpu",
+      "temperature"
+    ],
+    "fixed-center": true,
+    "modules-center": [
+      "clock"
+    ],
+    "modules-right": [
+      "network",
+      "bluetooth",
+      "hyprland/language",
+      "backlight",
+      "pulseaudio",
+      "battery"
+    ],
+    "temperature": {
+      "critical-threshold": 70,
+      "format": "{icon} {temperatureC}°C",
+      "format-icons": ["", "", ""],
+      "tooltip": false
+    },
+    "cpu": {
+      "format": " {usage}%",
+      "tooltip": false,
+      "interval": 1
+    },
+    "hyprland/language": {
+      "format": "{short}"
+    },
+    "clock": {
+      "interval": 1,
+      "format": "{:%d %B ~ %H:%M:%S}",
+      "tooltip-format": "<tt><small>{calendar}</small></tt>",
+      "calendar": {
+        "mode": "year",
+        "mode-mon-col": 3,
+        "format": {
+          "months": "<span color='#e6e1cf'><b>{}</b></span>",
+          "days": "<span color='#cad3f5'><b>{}</b></span>",
+          "weekdays": "<span color='#a6e3a1'><b>{}</b></span>",
+          "today": "<span color='#d5598b'><b><u>{}</u></b></span>"
+        }
+      }
+    },
+    "backlight": {
+      "device": "intel_backlight",
+      "format": "{icon} {percent}%",
+      "format-icons": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "battery": {
+      "interval": 5,
+      "states": {
+        "good": 100,
+        "warning": 20,
+        "critical": 10
+      },
+      "format": "{icon} {capacity}%",
+      "format-charging": " {capacity}%",
+      "format-plugged": "󰚥 {capacity}%",
+      "format-icons": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "pulseaudio": {
+      "format": "{icon} {volume}%",
+      "tooltip": false,
+      "format-muted": " Muted",
+      "on-click": "wpctl set-mute @DEFAULT_SINK@ toggle",
+      "on-scroll-up": "wpctl set-volume @DEFAULT_SINK@ 10%+",
+      "on-scroll-down": "wpctl set-volume @DEFAULT_SINK@ 10%-",
+      "format-icons": {
+        "headphone": "",
+        "hands-free": "",
+        "headset": "",
+        "phone": "",
+        "portable": "",
+        "car": "",
+        "default": [
+          "",
+          "",
+          ""
+        ]
+      }
+    },
+    "pulseaudio#microphone": {
+      "format": "{format_source}",
+      "format-source": " {volume}%",
+      "format-source-muted": " Muted",
+      "on-click": "wpctl set-mute @DEFAULT_SOURCE@ toggle",
+      "on-scroll-up": "wpctl set-volume @DEFAULT_SOURCE@ 5%+",
+      "on-scroll-down": "wpctl set-volume @DEFAULT_SOURCE@ 5%-"
+    },
+    "network": {
+      "format": "{}",
+      "format-wifi": "  {essid}",
+      "format-ethernet": " Ethernet",
+      "format-disabled": "  off",
+      "format-disconnected": "  disconnected",
+      "tooltip-format": "IP: {ipaddr}\n⇡ {bandwidthUpBits}\n⇣ {bandwidthDownBits}",
+      "on-click": "bash ~/.config/scripts/system/wifimenu"
+    },
+    "bluetooth": {
+      "format": " {status}",
+      "format-disabled": " off",
+      "format-connected": " {num_connections}",
+      "tooltip-format": "{device_alias}",
+      "format-connected-battery": " {device_alias} {device_battery_percentage}%",
+      "tooltip-format-enumerate-connected": "{device_alias}",
+      "on-click": "bash ~/.config/scripts/system/lockBluetooth"
+    },
+    "memory": {
+      "interval": 30,
+      "format": " {used}G",
+      "tooltip-format": "{used} / {total} G"
+    },
+    "disk": {
+      "interval": 600,
+      "format": "🖴 {percentage_used}%",
+      "tooltip-format": "{used} used out of {total} on {path} "
+    },
+    "custom/updates": {
+      "format": "{}",
+      "interval": 1200,
+      "exec": "$HOME/.config/waybar/bin/updatecheck",
+      "return-type": "json",
+      "exec-if": "exit 0",
+      "signal": 8
+    },
+    "custom/notifications": {
+      "format": "{}",
+      "exec": "$HOME/.config/waybar/bin/not-dnd -j",
+      "on-click": "$HOME/.config/waybar/bin/not-dnd",
+      "return-type": "json",
+      "interval": "once",
+      "signal": 2
+    },
+    "custom/player": {
+      "format": "󰎆 {}",
+      "interval": 5,
+      "exec": "$HOME/.config/waybar/bin/playerinfo",
+      "max-length": 40,
+      "tooltip": true
+    }
+  }
