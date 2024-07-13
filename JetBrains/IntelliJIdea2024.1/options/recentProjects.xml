@@ -18,10 +18,26 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
+        <entry key="$USER_HOME$/trainingGym/projects/GroupQueue">
+          <value>
+            <RecentProjectMetaInfo frameTitle="GroupQueue – application.properties" projectWorkspaceId="2ip6UlrE4mUuL8sHXdKKb827A6X">
+              <option name="activationTimestamp" value="1720716524209" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-241.17890.1" />
+              <option name="buildTimestamp" value="1717471500000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="6" />
+              </option>
+              <frame x="12" y="62" width="1896" height="1006" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1720521786849" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/trainingGym/cources/java/Introduction">
           <value>
             <RecentProjectMetaInfo frameTitle="Introduction – Main.java" projectWorkspaceId="2iVRYfZuhbJAV3JEP9AtxNJhqPC">
-              <option name="activationTimestamp" value="1720173492651" />
+              <option name="activationTimestamp" value="1720623290489" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="IU-241.17890.1" />
               <option name="buildTimestamp" value="1717471500000" />
@@ -30,14 +46,14 @@
               </option>
               <frame x="12" y="62" width="941" height="1006" />
               <option name="productionCode" value="IU" />
-              <option name="projectOpenTimestamp" value="1720094803857" />
+              <option name="projectOpenTimestamp" value="1720618948359" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
         <entry key="$USER_HOME$/trainingGym/projects/WalletWatcher">
           <value>
-            <RecentProjectMetaInfo frameTitle="WalletWatcher – pom.xml (WalletWatcher)" projectWorkspaceId="2iTkH1jF9PzDDWyuYAi65XRckAe">
-              <option name="activationTimestamp" value="1720174952336" />
+            <RecentProjectMetaInfo frameTitle="WalletWatcher – pom.xml (WalletWatcher)" opened="true" projectWorkspaceId="2iTkH1jF9PzDDWyuYAi65XRckAe">
+              <option name="activationTimestamp" value="1720718912764" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="IU-241.17890.1" />
               <option name="buildTimestamp" value="1717471500000" />
@@ -46,29 +62,13 @@
               </option>
               <frame x="12" y="62" width="1896" height="1006" />
               <option name="productionCode" value="IU" />
-              <option name="projectOpenTimestamp" value="1720174694338" />
-            </RecentProjectMetaInfo>
-          </value>
-        </entry>
-        <entry key="$USER_HOME$/trainingGym/projects/GroupQueue">
-          <value>
-            <RecentProjectMetaInfo frameTitle="application.properties" opened="true" projectWorkspaceId="2ip6UlrE4mUuL8sHXdKKb827A6X">
-              <option name="activationTimestamp" value="1720482666974" />
-              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="IU-241.17890.1" />
-              <option name="buildTimestamp" value="1717471500000" />
-              <option name="colorInfo">
-                <RecentProjectColorInfo associatedIndex="6" />
-              </option>
-              <frame x="12" y="62" width="1896" height="1006" />
-              <option name="productionCode" value="IU" />
-              <option name="projectOpenTimestamp" value="1720175190349" />
+              <option name="projectOpenTimestamp" value="1720716524811" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
       </map>
     </option>
-    <option name="lastOpenedProject" value="$USER_HOME$/trainingGym/projects/GroupQueue" />
+    <option name="lastOpenedProject" value="$USER_HOME$/trainingGym/projects/WalletWatcher" />
     <option name="lastProjectLocation" value="$USER_HOME$/trainingGym/projects" />
   </component>
 </application>

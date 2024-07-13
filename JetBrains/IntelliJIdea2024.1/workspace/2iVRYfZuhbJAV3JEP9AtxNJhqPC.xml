@@ -11,11 +11,34 @@
       <file>
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="211">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+            <state relative-caret-position="442">
+              <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="n#!!doc;n#Main#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/littlePackage/Vehicle.java">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="420">
+              <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+              <folding>
+                <element signature="e#545#546#0" expanded="true" />
+                <element signature="e#629#630#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/littlePackage/VehicleComparator.java">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="231">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -34,15 +57,28 @@
   <component name="FileTypeUsageLocalSummary"><![CDATA[{
   "data": {
     "JAVA": {
-      "usageCount": 37,
-      "lastUsed": 1720173488926
+      "usageCount": 45,
+      "lastUsed": 1720716511701
     }
   }
 }]]></component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>speed</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/littlePackage</dir>
+    </dirStrings>
+  </component>
+  <component name="FindInProjectScope">
+    <option name="isProjectScope" value="true" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/src/littlePackage/Car.java" />
       <option value="$PROJECT_DIR$/src/Main.java" />
+      <option value="$PROJECT_DIR$/src/littlePackage/VehicleComparator.java" />
+      <option value="$PROJECT_DIR$/src/littlePackage/Vehicle.java" />
     </changedPaths>
   </component>
   <component name="IgnoredFileRootStore">
@@ -54,7 +90,7 @@
   </component>
   <component name="LanguageUsageStatistics">
     <language id="JAVA">
-      <summary usageCount="37" lastUsage="1720173488926" />
+      <summary usageCount="45" lastUsage="1720716511701" />
     </language>
   </component>
   <component name="ProjectView">
@@ -87,18 +123,18 @@
     </panes>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25944000" />
+    <option name="totallyTimeSpent" value="27466000" />
   </component>
   <component name="ToolWindowManager">
     <layoutV2>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09192349" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10892667" />
       <window_info id="Commit" order="1" weight="0.25" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Problems" order="1" />
       <window_info anchor="bottom" id="Problems View" order="2" />
       <window_info anchor="bottom" id="Terminal" order="3" />
-      <window_info anchor="bottom" id="Run" order="4" show_stripe_button="false" weight="0.32952285" />
+      <window_info anchor="bottom" id="Run" order="4" visible="true" weight="0.32952285" />
       <window_info anchor="bottom" id="Services" order="5" />
       <window_info anchor="bottom" id="Build" order="6" />
       <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
@@ -107,24 +143,32 @@
       <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
       <window_info anchor="right" id="Maven" order="4" weight="0.25" />
       <window_info anchor="right" id="Hierarchy" order="5" weight="0.32990506" />
-      <unified_weights bottom="0.32952285" left="0.09192349" right="0.32990506" />
+      <unified_weights bottom="0.32952285" left="0.10892667" right="0.32990506" />
     </layoutV2>
     <recentWindows>
-      <value>Project</value>
-      <value>Hierarchy</value>
       <value>Run</value>
+      <value>Hierarchy</value>
+      <value>Project</value>
     </recentWindows>
   </component>
   <component name="WindowStateProjectService">
+    <state x="768" y="281" width="412" height="538" key="#com.intellij.ide.util.MemberChooser" timestamp="1720619620376">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="768" y="281" width="412" height="538" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1720619620376" />
     <state x="662" y="387" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog.ideScale=110" timestamp="1719654877785">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="662" y="387" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog.ideScale=110/0.0.1920.1080@0.0.1920.1080" timestamp="1719654877785" />
+    <state x="748" y="407" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1720619504791">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="748" y="407" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1720619504791" />
     <state x="830" y="416" width="454" height="454" key="FileChooserDialogImpl" timestamp="1720173417150">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="830" y="416" width="454" height="454" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1720173417150" />
-    <state width="1814" height="289" key="GridCell.Tab.0.bottom" timestamp="1720080006272">
+    <state width="1814" height="289" key="GridCell.Tab.0.bottom" timestamp="1720619817369">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1814" height="289" key="GridCell.Tab.0.bottom.ideScale=110" timestamp="1719650423607">
@@ -132,8 +176,8 @@
     </state>
     <state width="1814" height="289" key="GridCell.Tab.0.bottom.ideScale=110/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1719583890901" />
     <state width="1814" height="289" key="GridCell.Tab.0.bottom.ideScale=110/0.0.1920.1080@0.0.1920.1080" timestamp="1719650423607" />
-    <state width="1814" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1720080006272" />
-    <state width="1814" height="289" key="GridCell.Tab.0.center" timestamp="1720080006272">
+    <state width="1814" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1720619817369" />
+    <state width="1814" height="289" key="GridCell.Tab.0.center" timestamp="1720619817369">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1814" height="289" key="GridCell.Tab.0.center.ideScale=110" timestamp="1719650423607">
@@ -141,8 +185,8 @@
     </state>
     <state width="1814" height="289" key="GridCell.Tab.0.center.ideScale=110/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1719583890901" />
     <state width="1814" height="289" key="GridCell.Tab.0.center.ideScale=110/0.0.1920.1080@0.0.1920.1080" timestamp="1719650423607" />
-    <state width="1814" height="289" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1720080006272" />
-    <state width="1814" height="289" key="GridCell.Tab.0.left" timestamp="1720080006272">
+    <state width="1814" height="289" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1720619817369" />
+    <state width="1814" height="289" key="GridCell.Tab.0.left" timestamp="1720619817369">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1814" height="289" key="GridCell.Tab.0.left.ideScale=110" timestamp="1719650423607">
@@ -150,8 +194,8 @@
     </state>
     <state width="1814" height="289" key="GridCell.Tab.0.left.ideScale=110/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1719583890900" />
     <state width="1814" height="289" key="GridCell.Tab.0.left.ideScale=110/0.0.1920.1080@0.0.1920.1080" timestamp="1719650423607" />
-    <state width="1814" height="289" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1720080006272" />
-    <state width="1814" height="289" key="GridCell.Tab.0.right" timestamp="1720080006272">
+    <state width="1814" height="289" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1720619817369" />
+    <state width="1814" height="289" key="GridCell.Tab.0.right" timestamp="1720619817369">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1814" height="289" key="GridCell.Tab.0.right.ideScale=110" timestamp="1719650423607">
@@ -159,14 +203,36 @@
     </state>
     <state width="1814" height="289" key="GridCell.Tab.0.right.ideScale=110/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1719583890901" />
     <state width="1814" height="289" key="GridCell.Tab.0.right.ideScale=110/0.0.1920.1080@0.0.1920.1080" timestamp="1719650423607" />
-    <state width="1814" height="289" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1720080006272" />
+    <state width="1814" height="289" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1720619817369" />
     <state x="479" y="200" key="SettingsEditor.ideScale=110" timestamp="1719646089763">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="479" y="200" key="SettingsEditor.ideScale=110/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1719574537830" />
     <state x="479" y="200" key="SettingsEditor.ideScale=110/0.0.1920.1080@0.0.1920.1080" timestamp="1719646089763" />
+    <state x="1079" y="474" width="702" height="560" key="find.popup" timestamp="1720619468871">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1079" y="474" width="702" height="560" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1720619468871" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/littlePackage/Vehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+          <folding>
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/littlePackage/VehicleComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/littlePackage/Car.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -176,10 +242,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        <state relative-caret-position="442">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="n#!!doc;n#Main#0" />
           </folding>
         </state>
       </provider>

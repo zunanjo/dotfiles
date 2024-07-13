@@ -11,17 +11,17 @@
       <file current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/WalletWatcher/services/APIService.java">
           <provider editor-type-id="text-editor" selected="true">
-            <state>
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="899">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
             </state>
           </provider>
         </entry>
       </file>
       <file>
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/WalletWatcher/WalletWatcherApplication.java">
           <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="273">
-              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+            <state relative-caret-position="620">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -31,8 +31,8 @@
   <component name="FileTypeUsageLocalSummary"><![CDATA[{
   "data": {
     "JAVA": {
-      "usageCount": 8,
-      "lastUsed": 1720174793733
+      "usageCount": 11,
+      "lastUsed": 1720717602144
     },
     "HTML": {
       "usageCount": 1,
@@ -47,12 +47,16 @@
       "lastUsed": 1720081517285
     },
     "XML": {
-      "usageCount": 2,
-      "lastUsed": 1720174793323
+      "usageCount": 3,
+      "lastUsed": 1720716524610
     },
     "PLAIN_TEXT": {
       "usageCount": 1,
       "lastUsed": 1720174800046
+    },
+    "CLASS": {
+      "usageCount": 2,
+      "lastUsed": 1720716800749
     }
   }
 }]]></component>
@@ -76,6 +80,7 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/src/main/resources/static/js/meetingPage.js" />
       <option value="$PROJECT_DIR$/src/main/java/com/WalletWatcher/services/APIService.java" />
+      <option value="$PROJECT_DIR$/src/main/java/com/WalletWatcher/WalletWatcherApplication.java" />
     </changedPaths>
   </component>
   <component name="IgnoredFileRootStore">
@@ -93,7 +98,7 @@
       <summary usageCount="1" lastUsage="1720081009772" />
     </language>
     <language id="JAVA">
-      <summary usageCount="8" lastUsage="1720174793733" />
+      <summary usageCount="11" lastUsage="1720717602144" />
     </language>
     <language id="JavaScript">
       <summary usageCount="1" lastUsage="1720081517285" />
@@ -102,7 +107,7 @@
       <summary usageCount="1" lastUsage="1720174800046" />
     </language>
     <language id="XML">
-      <summary usageCount="2" lastUsage="1720174793326" />
+      <summary usageCount="3" lastUsage="1720716524611" />
     </language>
   </component>
   <component name="MavenProjectNavigator">
@@ -190,6 +195,27 @@
               <item name="dir{file:///home/elpablo/trainingGym/projects/WalletWatcher/src/main/resources}" type="462c0819:PsiDirectoryNode" />
               <item name="dir{file:///home/elpablo/trainingGym/projects/WalletWatcher/src/main/resources/templates/views/meetingPage}" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="WalletWatcher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/elpablo/trainingGym/projects/WalletWatcher}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/elpablo/trainingGym/projects/WalletWatcher/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/elpablo/trainingGym/projects/WalletWatcher/src/test}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WalletWatcher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/elpablo/trainingGym/projects/WalletWatcher}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/elpablo/trainingGym/projects/WalletWatcher/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/elpablo/trainingGym/projects/WalletWatcher/src/test}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/elpablo/trainingGym/projects/WalletWatcher/src/test/java}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WalletWatcher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/elpablo/trainingGym/projects/WalletWatcher}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/elpablo/trainingGym/projects/WalletWatcher/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/elpablo/trainingGym/projects/WalletWatcher/src/test}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/elpablo/trainingGym/projects/WalletWatcher/src/test/java}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/elpablo/trainingGym/projects/WalletWatcher/src/test/java/com/WalletWatcher/WalletWatcher}" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -203,10 +229,29 @@
     </history>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6972000" />
+    <option name="totallyTimeSpent" value="9462000" />
   </component>
   <component name="ToolWindowManager">
     <layoutV2>
+      <window_info id="Pull Requests" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22916666" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.32952285" />
+      <window_info anchor="bottom" id="Services" order="5" />
+      <window_info anchor="bottom" id="Build" order="6" show_stripe_button="false" weight="0.32952285" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <unified_weights bottom="0.32952285" left="0.22916666" />
+    </layoutV2>
+    <layout-to-restore>
       <window_info id="Pull Requests" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22916666" />
       <window_info id="Commit" order="1" weight="0.25" />
@@ -215,19 +260,20 @@
       <window_info anchor="bottom" id="Problems" order="1" />
       <window_info anchor="bottom" id="Problems View" order="2" />
       <window_info anchor="bottom" id="Terminal" order="3" />
-      <window_info anchor="bottom" id="Run" order="4" show_stripe_button="false" weight="0.22117296" />
+      <window_info anchor="bottom" id="Run" order="4" visible="true" weight="0.32952285" />
       <window_info anchor="bottom" id="Services" order="5" />
-      <window_info anchor="bottom" id="Build" order="6" />
+      <window_info anchor="bottom" id="Build" order="6" show_stripe_button="false" weight="0.32952285" />
       <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
       <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
       <window_info anchor="right" id="Database" order="2" weight="0.25" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
       <window_info anchor="right" id="Maven" order="4" weight="0.25" />
-      <unified_weights bottom="0.22117296" left="0.22916666" />
-    </layoutV2>
+      <unified_weights bottom="0.32952285" left="0.22916666" />
+    </layout-to-restore>
     <recentWindows>
-      <value>Project</value>
       <value>Run</value>
+      <value>Build</value>
+      <value>Project</value>
     </recentWindows>
   </component>
   <component name="WindowStateProjectService">
@@ -235,6 +281,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="293" key="#Web_Browsers_and_Preview/0.0.1920.1080@0.0.1920.1080" timestamp="1720081054186" />
+    <state x="773" y="296" key="#com.intellij.ide.util.MemberChooser" timestamp="1720718108310">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="773" y="296" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1720718108310" />
     <state x="747" y="338" key="FileChooserDialogImpl" timestamp="1720173591345">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -243,7 +293,7 @@
     </state>
     <state x="748" y="338" key="FileChooserDialogImpl.ideScale=110/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1719573716639" />
     <state x="747" y="338" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1720173591345" />
-    <state width="1814" height="180" key="GridCell.Tab.0.bottom" timestamp="1720094803450">
+    <state width="1814" height="289" key="GridCell.Tab.0.bottom" timestamp="1720718381757">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1802" height="289" key="GridCell.Tab.0.bottom.ideScale=110" timestamp="1719573720674">
@@ -251,8 +301,8 @@
     </state>
     <state width="1802" height="289" key="GridCell.Tab.0.bottom.ideScale=110/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1719573720674" />
     <state width="1802" height="289" key="GridCell.Tab.0.bottom.ideScale=110/0.0.1920.1080@0.0.1920.1080" timestamp="1719522479331" />
-    <state width="1814" height="180" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1720094803450" />
-    <state width="1814" height="180" key="GridCell.Tab.0.center" timestamp="1720094803450">
+    <state width="1814" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1720718381757" />
+    <state width="1814" height="289" key="GridCell.Tab.0.center" timestamp="1720718381757">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1802" height="289" key="GridCell.Tab.0.center.ideScale=110" timestamp="1719573720674">
@@ -260,8 +310,8 @@
     </state>
     <state width="1802" height="289" key="GridCell.Tab.0.center.ideScale=110/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1719573720674" />
     <state width="1802" height="289" key="GridCell.Tab.0.center.ideScale=110/0.0.1920.1080@0.0.1920.1080" timestamp="1719522479331" />
-    <state width="1814" height="180" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1720094803450" />
-    <state width="1814" height="180" key="GridCell.Tab.0.left" timestamp="1720094803450">
+    <state width="1814" height="289" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1720718381757" />
+    <state width="1814" height="289" key="GridCell.Tab.0.left" timestamp="1720718381757">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1802" height="289" key="GridCell.Tab.0.left.ideScale=110" timestamp="1719573720674">
@@ -269,8 +319,8 @@
     </state>
     <state width="1802" height="289" key="GridCell.Tab.0.left.ideScale=110/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1719573720674" />
     <state width="1802" height="289" key="GridCell.Tab.0.left.ideScale=110/0.0.1920.1080@0.0.1920.1080" timestamp="1719522479331" />
-    <state width="1814" height="180" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1720094803450" />
-    <state width="1814" height="180" key="GridCell.Tab.0.right" timestamp="1720094803450">
+    <state width="1814" height="289" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1720718381757" />
+    <state width="1814" height="289" key="GridCell.Tab.0.right" timestamp="1720718381757">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1802" height="289" key="GridCell.Tab.0.right.ideScale=110" timestamp="1719573720674">
@@ -278,8 +328,8 @@
     </state>
     <state width="1802" height="289" key="GridCell.Tab.0.right.ideScale=110/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1719573720674" />
     <state width="1802" height="289" key="GridCell.Tab.0.right.ideScale=110/0.0.1920.1080@0.0.1920.1080" timestamp="1719522479331" />
-    <state width="1814" height="180" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1720094803450" />
-    <state width="1814" height="180" key="GridCell.Tab.1.bottom" timestamp="1720094803450">
+    <state width="1814" height="289" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1720718381757" />
+    <state width="1814" height="289" key="GridCell.Tab.1.bottom" timestamp="1720718381757">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1802" height="289" key="GridCell.Tab.1.bottom.ideScale=110" timestamp="1719573720674">
@@ -287,8 +337,8 @@
     </state>
     <state width="1802" height="289" key="GridCell.Tab.1.bottom.ideScale=110/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1719573720674" />
     <state width="1802" height="289" key="GridCell.Tab.1.bottom.ideScale=110/0.0.1920.1080@0.0.1920.1080" timestamp="1719522479331" />
-    <state width="1814" height="180" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1720094803450" />
-    <state width="1814" height="180" key="GridCell.Tab.1.center" timestamp="1720094803450">
+    <state width="1814" height="289" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1720718381757" />
+    <state width="1814" height="289" key="GridCell.Tab.1.center" timestamp="1720718381757">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1802" height="289" key="GridCell.Tab.1.center.ideScale=110" timestamp="1719573720674">
@@ -296,8 +346,8 @@
     </state>
     <state width="1802" height="289" key="GridCell.Tab.1.center.ideScale=110/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1719573720674" />
     <state width="1802" height="289" key="GridCell.Tab.1.center.ideScale=110/0.0.1920.1080@0.0.1920.1080" timestamp="1719522479331" />
-    <state width="1814" height="180" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1720094803450" />
-    <state width="1814" height="180" key="GridCell.Tab.1.left" timestamp="1720094803450">
+    <state width="1814" height="289" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1720718381757" />
+    <state width="1814" height="289" key="GridCell.Tab.1.left" timestamp="1720718381757">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1802" height="289" key="GridCell.Tab.1.left.ideScale=110" timestamp="1719573720674">
@@ -305,8 +355,8 @@
     </state>
     <state width="1802" height="289" key="GridCell.Tab.1.left.ideScale=110/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1719573720674" />
     <state width="1802" height="289" key="GridCell.Tab.1.left.ideScale=110/0.0.1920.1080@0.0.1920.1080" timestamp="1719522479331" />
-    <state width="1814" height="180" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1720094803450" />
-    <state width="1814" height="180" key="GridCell.Tab.1.right" timestamp="1720094803450">
+    <state width="1814" height="289" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1720718381757" />
+    <state width="1814" height="289" key="GridCell.Tab.1.right" timestamp="1720718381757">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1802" height="289" key="GridCell.Tab.1.right.ideScale=110" timestamp="1719573720674">
@@ -314,7 +364,7 @@
     </state>
     <state width="1802" height="289" key="GridCell.Tab.1.right.ideScale=110/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1719573720674" />
     <state width="1802" height="289" key="GridCell.Tab.1.right.ideScale=110/0.0.1920.1080@0.0.1920.1080" timestamp="1719522479331" />
-    <state width="1814" height="180" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1720094803450" />
+    <state width="1814" height="289" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1720718381757" />
     <state x="479" y="200" key="SettingsEditor" timestamp="1720077302281">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -322,6 +372,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="479" y="200" key="SettingsEditor.ideScale=110/0.0.1920.1080@0.0.1920.1080" timestamp="1720077219731" />
+    <state x="151" y="191" width="1607" height="802" key="SettingsEditor.inPresentationMode.ideScale=150" timestamp="1720718738148">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="151" y="191" width="1607" height="802" key="SettingsEditor.inPresentationMode.ideScale=150/0.0.1920.1080@0.0.1920.1080" timestamp="1720718738148" />
     <state x="479" y="200" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1720077302281" />
     <state x="853" y="240" width="702" height="840" key="find.popup" timestamp="1720077334116">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -337,22 +391,55 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/meetingPage.js" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/views/meetingPage/meetingPageDesktop.html" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/styles/meetingDesktopStyle.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/WalletWatcher/services/APIService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/whitelist">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/whitelist" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        <state relative-caret-position="189">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/json/json/20240303/json-20240303.jar!/org/json/JSONObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="264" column="33" lean-forward="true" selection-start-line="264" selection-start-column="33" selection-end-line="264" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/WalletWatcher/WalletWatcher/WalletWatcherApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/WalletWatcher/services/APIService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="899">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/WalletWatcher/WalletWatcherApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI" />
+      <state key="GlobalLibrariesConfigurable.UI" />
+      <state key="JdkListConfigurable.UI" />
+      <state key="ModuleStructureConfigurable.UI" />
+      <state key="ProjectLibrariesConfigurable.UI" />
+    </states>
   </component>
 </project>
