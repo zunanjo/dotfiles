@@ -11,17 +11,67 @@
       <file current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/WalletWatcher/services/APIService.java">
           <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="899">
+            <state relative-caret-position="924">
               <caret line="61" selection-start-line="61" selection-end-line="61" />
             </state>
           </provider>
         </entry>
       </file>
-      <file>
+      <file current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/WalletWatcher/WalletWatcherApplication.java">
           <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="620">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="210">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/views/meetingPage/meetingPageDesktop.html">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="378">
+              <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/styles/style.css">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="1428">
+              <caret line="68" column="12" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/styles/meetingDesktopStyle.css">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="252">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/styles/buttonStyle.css">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="231">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/WalletWatcher/controllers/meeting/MeetingController.java">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="168">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -31,16 +81,16 @@
   <component name="FileTypeUsageLocalSummary"><![CDATA[{
   "data": {
     "JAVA": {
-      "usageCount": 11,
-      "lastUsed": 1720717602144
+      "usageCount": 17,
+      "lastUsed": 1721028256339
     },
     "HTML": {
-      "usageCount": 1,
-      "lastUsed": 1720081009772
+      "usageCount": 3,
+      "lastUsed": 1721028255395
     },
     "CSS": {
-      "usageCount": 1,
-      "lastUsed": 1720081358477
+      "usageCount": 7,
+      "lastUsed": 1721028256162
     },
     "JavaScript": {
       "usageCount": 1,
@@ -62,9 +112,13 @@
 }]]></component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find />
       <find>topFiveCMCCryptoURL</find>
       <find>margin</find>
+      <find>registr</find>
+      <find>regi</find>
+      <find>logo</find>
+      <find />
+      <find>img</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -92,13 +146,13 @@
   </component>
   <component name="LanguageUsageStatistics">
     <language id="CSS">
-      <summary usageCount="1" lastUsage="1720081358477" />
+      <summary usageCount="7" lastUsage="1721028256162" />
     </language>
     <language id="HTML">
-      <summary usageCount="1" lastUsage="1720081009772" />
+      <summary usageCount="3" lastUsage="1721028255398" />
     </language>
     <language id="JAVA">
-      <summary usageCount="11" lastUsage="1720717602144" />
+      <summary usageCount="17" lastUsage="1721028256339" />
     </language>
     <language id="JavaScript">
       <summary usageCount="1" lastUsage="1720081517285" />
@@ -193,6 +247,15 @@
               <item name="dir{file:///home/elpablo/trainingGym/projects/WalletWatcher/src}" type="462c0819:PsiDirectoryNode" />
               <item name="dir{file:///home/elpablo/trainingGym/projects/WalletWatcher/src/main}" type="462c0819:PsiDirectoryNode" />
               <item name="dir{file:///home/elpablo/trainingGym/projects/WalletWatcher/src/main/resources}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/elpablo/trainingGym/projects/WalletWatcher/src/main/resources/static}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/elpablo/trainingGym/projects/WalletWatcher/src/main/resources/static/styles}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WalletWatcher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/elpablo/trainingGym/projects/WalletWatcher}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/elpablo/trainingGym/projects/WalletWatcher/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/elpablo/trainingGym/projects/WalletWatcher/src/main}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/elpablo/trainingGym/projects/WalletWatcher/src/main/resources}" type="462c0819:PsiDirectoryNode" />
               <item name="dir{file:///home/elpablo/trainingGym/projects/WalletWatcher/src/main/resources/templates/views/meetingPage}" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -229,12 +292,12 @@
     </history>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9462000" />
+    <option name="totallyTimeSpent" value="14277000" />
   </component>
   <component name="ToolWindowManager">
     <layoutV2>
       <window_info id="Pull Requests" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22916666" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22916666" />
       <window_info id="Commit" order="1" weight="0.25" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
@@ -271,9 +334,9 @@
       <unified_weights bottom="0.32952285" left="0.22916666" />
     </layout-to-restore>
     <recentWindows>
+      <value>Project</value>
       <value>Run</value>
       <value>Build</value>
-      <value>Project</value>
     </recentWindows>
   </component>
   <component name="WindowStateProjectService">
@@ -387,10 +450,7 @@
     <state x="599" y="253" width="790" height="612" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1720174950543" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/WalletWatcher/controllers/meeting/MeetingController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/meetingPage.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/views/meetingPage/meetingPageDesktop.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/styles/meetingDesktopStyle.css" />
     <entry file="file://$PROJECT_DIR$/whitelist" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -415,15 +475,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/WalletWatcher/services/APIService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="899">
+        <state relative-caret-position="924">
           <caret line="61" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/WalletWatcher/WalletWatcherApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="210">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/styles/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="68" column="12" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/styles/meetingDesktopStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/styles/buttonStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/WalletWatcher/controllers/meeting/MeetingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/views/meetingPage/meetingPageDesktop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
         </state>
       </provider>
     </entry>

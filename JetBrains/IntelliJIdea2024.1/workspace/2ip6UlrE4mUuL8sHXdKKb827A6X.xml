@@ -11,9 +11,10 @@
       <file current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/groupqueue/GroupQueueApplication.java">
           <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="147">
-              <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+            <state relative-caret-position="84">
+              <caret line="6" column="70" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
               <folding>
+                <element signature="e#258#259#0" expanded="true" />
                 <element signature="e#330#331#0" expanded="true" />
               </folding>
             </state>
@@ -21,6 +22,55 @@
         </entry>
       </file>
       <file>
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/groupqueue/controllers/start/StartController.java">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="168">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#309#310#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/views/startPage/startPageDesktop.html">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="294">
+              <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/styles/style.css">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="744">
+              <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/styles/buttons.css">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="63">
+              <caret line="3" column="15" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/styles/startDesktop.css">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="294">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider editor-type-id="text-editor" selected="true">
             <state>
@@ -34,19 +84,67 @@
   <component name="FileTypeUsageLocalSummary"><![CDATA[{
   "data": {
     "JAVA": {
-      "usageCount": 9,
-      "lastUsed": 1720716508824
+      "usageCount": 13,
+      "lastUsed": 1721028263297
     },
     "Properties": {
-      "usageCount": 10,
-      "lastUsed": 1720716508429
+      "usageCount": 12,
+      "lastUsed": 1721028263529
     },
     "Markdown": {
       "usageCount": 1,
       "lastUsed": 1720175193387
+    },
+    "HTML": {
+      "usageCount": 4,
+      "lastUsed": 1721028263382
+    },
+    "CSS": {
+      "usageCount": 9,
+      "lastUsed": 1721028263462
+    },
+    "XML": {
+      "usageCount": 1,
+      "lastUsed": 1720965944036
+    },
+    "Image": {
+      "usageCount": 1,
+      "lastUsed": 1720971720788
     }
   }
 }]]></component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>cartoon-button</find>
+      <find>--blackBlue</find>
+      <find>rad</find>
+      <find>--darkBlue</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/main/resources/templates/views/startPage</dir>
+      <dir>$PROJECT_DIR$/src/main/resources/static/styles</dir>
+    </dirStrings>
+  </component>
+  <component name="FindInProjectScope">
+    <option name="isProjectScope" value="true" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/src/main/resources/templates/views/startPage/startPage.html" />
+      <option value="$PROJECT_DIR$/src/main/java/com/example/groupqueue/start/StartController.java" />
+      <option value="$PROJECT_DIR$/src/main/java/com/example/groupqueue/GroupQueueApplication.java" />
+      <option value="$PROJECT_DIR$/pom.xml" />
+      <option value="$PROJECT_DIR$/src/main/resources/static/styles/button.css" />
+      <option value="$PROJECT_DIR$/src/main/java/com/example/groupqueue/controllers/start/StartController.java" />
+      <option value="$PROJECT_DIR$/src/main/resources/templates/views/startPage/startPageDesktop.html" />
+      <option value="$PROJECT_DIR$/src/main/resources/static/styles/buttons.css" />
+      <option value="$PROJECT_DIR$/src/main/resources/static/styles/style.css" />
+      <option value="$PROJECT_DIR$/src/main/resources/static/styles/startDesktop.css" />
+    </changedPaths>
+  </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
       <set>
@@ -55,14 +153,23 @@
     </option>
   </component>
   <component name="LanguageUsageStatistics">
+    <language id="CSS">
+      <summary usageCount="9" lastUsage="1721028263462" />
+    </language>
+    <language id="HTML">
+      <summary usageCount="4" lastUsage="1721028263382" />
+    </language>
     <language id="JAVA">
-      <summary usageCount="9" lastUsage="1720716508824" />
+      <summary usageCount="13" lastUsage="1721028263297" />
     </language>
     <language id="Markdown">
       <summary usageCount="1" lastUsage="1720175193389" />
     </language>
     <language id="Properties">
-      <summary usageCount="10" lastUsage="1720716508433" />
+      <summary usageCount="12" lastUsage="1721028263529" />
+    </language>
+    <language id="XML">
+      <summary usageCount="1" lastUsage="1720965944036" />
     </language>
   </component>
   <component name="MavenProjectNavigator">
@@ -113,7 +220,41 @@
               <item name="dir{file:///home/elpablo/trainingGym/projects/GroupQueue}" type="462c0819:PsiDirectoryNode" />
               <item name="dir{file:///home/elpablo/trainingGym/projects/GroupQueue/src}" type="462c0819:PsiDirectoryNode" />
               <item name="dir{file:///home/elpablo/trainingGym/projects/GroupQueue/src/main}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/elpablo/trainingGym/projects/GroupQueue/src/main/java}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/elpablo/trainingGym/projects/GroupQueue/src/main/java/com/example/groupqueue}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/elpablo/trainingGym/projects/GroupQueue/src/main/java/com/example/groupqueue/controllers/start}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupQueue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/elpablo/trainingGym/projects/GroupQueue}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/elpablo/trainingGym/projects/GroupQueue/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/elpablo/trainingGym/projects/GroupQueue/src/main}" type="462c0819:PsiDirectoryNode" />
               <item name="dir{file:///home/elpablo/trainingGym/projects/GroupQueue/src/main/resources}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupQueue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/elpablo/trainingGym/projects/GroupQueue}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/elpablo/trainingGym/projects/GroupQueue/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/elpablo/trainingGym/projects/GroupQueue/src/main}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/elpablo/trainingGym/projects/GroupQueue/src/main/resources}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/elpablo/trainingGym/projects/GroupQueue/src/main/resources/static}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupQueue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/elpablo/trainingGym/projects/GroupQueue}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/elpablo/trainingGym/projects/GroupQueue/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/elpablo/trainingGym/projects/GroupQueue/src/main}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/elpablo/trainingGym/projects/GroupQueue/src/main/resources}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/elpablo/trainingGym/projects/GroupQueue/src/main/resources/static}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/elpablo/trainingGym/projects/GroupQueue/src/main/resources/static/images/startPage}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupQueue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/elpablo/trainingGym/projects/GroupQueue}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/elpablo/trainingGym/projects/GroupQueue/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/elpablo/trainingGym/projects/GroupQueue/src/main}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/elpablo/trainingGym/projects/GroupQueue/src/main/resources}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/elpablo/trainingGym/projects/GroupQueue/src/main/resources/templates/views/startPage}" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -128,18 +269,19 @@
     </history>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21651000" />
+    <option name="totallyTimeSpent" value="26865000" />
   </component>
   <component name="ToolWindowManager">
     <layoutV2>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32996812" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.500731" visible="true" weight="0.16798523" />
       <window_info id="Commit" order="1" weight="0.25" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info id="Bookmarks" order="2" sideWeight="0.499269" side_tool="true" weight="0.16798523" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Problems" order="1" />
       <window_info anchor="bottom" id="Problems View" order="2" />
       <window_info anchor="bottom" id="Terminal" order="3" />
-      <window_info anchor="bottom" id="Run" order="4" visible="true" weight="0.32952285" />
+      <window_info anchor="bottom" id="Run" order="4" show_stripe_button="false" weight="0.25099403" />
       <window_info anchor="bottom" id="Services" order="5" />
       <window_info anchor="bottom" id="Build" order="6" />
       <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
@@ -147,31 +289,120 @@
       <window_info anchor="right" id="Database" order="2" weight="0.25" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
       <window_info anchor="right" id="Maven" order="4" weight="0.25" />
-      <unified_weights bottom="0.32952285" left="0.32996812" />
+      <unified_weights bottom="0.25099403" left="0.16798523" />
     </layoutV2>
     <recentWindows>
-      <value>Project</value>
       <value>Run</value>
+      <value>Project</value>
+      <value>Bookmarks</value>
     </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1814" height="210" key="GridCell.Tab.0.bottom" timestamp="1720972706779">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1814" height="210" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1720972706779" />
+    <state width="1814" height="210" key="GridCell.Tab.0.center" timestamp="1720972706779">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1814" height="210" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1720972706779" />
+    <state width="1814" height="210" key="GridCell.Tab.0.left" timestamp="1720972706779">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1814" height="210" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1720972706779" />
+    <state width="1814" height="210" key="GridCell.Tab.0.right" timestamp="1720972706779">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1814" height="210" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1720972706779" />
+    <state width="1814" height="210" key="GridCell.Tab.1.bottom" timestamp="1720972706779">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1814" height="210" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1720972706779" />
+    <state width="1814" height="210" key="GridCell.Tab.1.center" timestamp="1720972706779">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1814" height="210" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1720972706779" />
+    <state width="1814" height="210" key="GridCell.Tab.1.left" timestamp="1720972706779">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1814" height="210" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1720972706779" />
+    <state width="1814" height="210" key="GridCell.Tab.1.right" timestamp="1720972706779">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1814" height="210" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1720972706779" />
+    <state x="1218" y="520" width="702" height="560" key="find.popup" timestamp="1720971293972">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1218" y="520" width="702" height="560" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1720971293972" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/HELP.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/groupqueue/GroupQueueApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        <state relative-caret-position="84">
+          <caret line="6" column="70" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
           <folding>
+            <element signature="e#258#259#0" expanded="true" />
             <element signature="e#330#331#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/startPage/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="34" selection-start-column="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/styles/startDesktop.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/styles/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/views/startPage/startPageDesktop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/styles/buttons.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/groupqueue/controllers/start/StartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
